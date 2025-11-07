@@ -1,2 +1,2 @@
 # anonjson
-anonjson.py — Anonimiza chaves e/ou valores de um JSON arbitrário. Útil para interações com LLMs sem expôr dados reais.
+anonjson.py — Anonymizes keys and/or values ​​in an arbitrary JSON. Useful for interacting with LLMs without exposing real data.
