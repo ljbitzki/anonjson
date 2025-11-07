@@ -125,7 +125,7 @@ def run(input_fp: str,
 
 def main():
     parser = argparse.ArgumentParser(description="Anonymizes keys and/or values of an arbitrary JSON.")
-    parser.add_argument("-i", "input", help="Input JSON file or '-' for stdin")
+    parser.add_argument("-i", "--input", help="Input JSON file or '-' for stdin")
     parser.add_argument("-o", "--output", help="(Optional) Forces the output file name.")
     parser.add_argument("-m", "--emit-map", help="(Optional) Saves the replacement map in a separate JSON file.")
     parser.add_argument("-c", "--compact", action="store_true", help="Compact output (without indentation).")
