@@ -55,7 +55,7 @@ python anonjson.py input.json --emit-map
     "description": "",
     "mode": {
         "value": "tagged",
-        "label": "Tagueada"
+        "label": "Tagged"
     },
     "rf_role": null,
     "untagged_vlan": {
@@ -73,7 +73,7 @@ python anonjson.py input.json --emit-map
             "display": "lab-guests (99)",
             "vid": 99,
             "name": "lab-guests",
-            "description": "gesuts-LAB"
+            "description": "guests-LAB"
         },
         {
             "id": 13,
